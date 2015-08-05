@@ -9,4 +9,6 @@
 	<dimen name="center_icon_width">100dp</dimen>
 	<dimen name="center_item_padding_left">40dp</dimen>
 	
+	<dimen name="center_item_textsize">14px</dimen>
+	
 </resources>

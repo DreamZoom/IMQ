@@ -63,6 +63,7 @@ public final class R {
         public static final int center_icon_margin=0x7f050002;
         public static final int center_icon_width=0x7f050003;
         public static final int center_item_padding_left=0x7f050004;
+        public static final int center_item_textsize=0x7f050005;
     }
     public static final class drawable {
         public static final int contact_list_normal=0x7f020000;
