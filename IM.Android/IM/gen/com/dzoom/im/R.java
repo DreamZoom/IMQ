@@ -71,14 +71,15 @@ public final class R {
         public static final int conversation_normal=0x7f020002;
         public static final int conversation_selected=0x7f020003;
         public static final int ic_launcher=0x7f020004;
-        public static final int main_bottom_item_bg=0x7f020005;
-        public static final int settings_normal=0x7f020006;
-        public static final int settings_selected=0x7f020007;
-        public static final int tab_chat_bg=0x7f020008;
-        public static final int tab_contact_list_bg=0x7f020009;
-        public static final int tab_setting_bg=0x7f02000a;
-        public static final int unread_count_bg=0x7f02000b;
-        public static final int unread_dot=0x7f02000c;
+        public static final int item_normal_shape=0x7f020005;
+        public static final int main_bottom_item_bg=0x7f020006;
+        public static final int settings_normal=0x7f020007;
+        public static final int settings_selected=0x7f020008;
+        public static final int tab_chat_bg=0x7f020009;
+        public static final int tab_contact_list_bg=0x7f02000a;
+        public static final int tab_setting_bg=0x7f02000b;
+        public static final int unread_count_bg=0x7f02000c;
+        public static final int unread_dot=0x7f02000d;
     }
     public static final class id {
         public static final int action_settings=0x7f090015;
