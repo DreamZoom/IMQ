@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="session">会话</string>
+    <string name="address_book">联系人</string>
+    <string name="setting">设置</string>
+    <string name="center">个人中心</string>
+</resources>
