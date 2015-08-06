@@ -62,25 +62,31 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
         public static final int center_icon_margin=0x7f050002;
         public static final int center_icon_width=0x7f050003;
+        public static final int center_item_icon_size=0x7f050006;
         public static final int center_item_padding_left=0x7f050004;
+        public static final int center_item_textsize=0x7f050005;
     }
     public static final class drawable {
-        public static final int contact_list_normal=0x7f020000;
-        public static final int contact_list_selected=0x7f020001;
-        public static final int conversation_normal=0x7f020002;
-        public static final int conversation_selected=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int main_bottom_item_bg=0x7f020005;
-        public static final int settings_normal=0x7f020006;
-        public static final int settings_selected=0x7f020007;
-        public static final int tab_chat_bg=0x7f020008;
-        public static final int tab_contact_list_bg=0x7f020009;
-        public static final int tab_setting_bg=0x7f02000a;
-        public static final int unread_count_bg=0x7f02000b;
-        public static final int unread_dot=0x7f02000c;
+        public static final int btn_blue_normal_shape=0x7f020000;
+        public static final int btn_blue_pressed_shape=0x7f020001;
+        public static final int btn_blue_selector=0x7f020002;
+        public static final int contact_list_normal=0x7f020003;
+        public static final int contact_list_selected=0x7f020004;
+        public static final int conversation_normal=0x7f020005;
+        public static final int conversation_selected=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int item_normal_shape=0x7f020008;
+        public static final int main_bottom_item_bg=0x7f020009;
+        public static final int settings_normal=0x7f02000a;
+        public static final int settings_selected=0x7f02000b;
+        public static final int tab_chat_bg=0x7f02000c;
+        public static final int tab_contact_list_bg=0x7f02000d;
+        public static final int tab_setting_bg=0x7f02000e;
+        public static final int unread_count_bg=0x7f02000f;
+        public static final int unread_dot=0x7f020010;
     }
     public static final class id {
-        public static final int action_settings=0x7f090015;
+        public static final int action_settings=0x7f090016;
         public static final int btn_address_list=0x7f090006;
         public static final int btn_center=0x7f09000b;
         public static final int btn_container_address_list=0x7f090005;
@@ -91,14 +97,15 @@ public final class R {
         public static final int btn_setting=0x7f090009;
         public static final int imageView1=0x7f09000e;
         public static final int imageView2=0x7f090011;
-        public static final int imageView22=0x7f090013;
+        public static final int imageView22=0x7f090014;
         public static final int linearLayout1=0x7f09000d;
-        public static final int linearLayout2=0x7f090010;
         public static final int main_bottom=0x7f090001;
+        public static final int mysees=0x7f090013;
+        public static final int photos=0x7f090010;
         public static final int textView1=0x7f09000c;
         public static final int textView2=0x7f09000f;
         public static final int textView3=0x7f090012;
-        public static final int textView32=0x7f090014;
+        public static final int textView32=0x7f090015;
         public static final int unread_address_number=0x7f090007;
         public static final int unread_msg_number=0x7f090004;
         public static final int vPager=0x7f090000;

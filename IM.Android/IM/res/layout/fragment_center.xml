@@ -6,10 +6,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/center_icon_margin"
         android:layout_marginTop="@dimen/center_icon_margin"
         android:background="@color/center_item_bg_color" >
 
@@ -47,27 +48,22 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/photos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/linearLayout1"
-        android:orientation="vertical" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginTop="@dimen/center_icon_margin"
-            android:background="@drawable/item_normal_shape"
-            android:padding="@dimen/center_icon_margin" >
+        android:background="@drawable/btn_blue_selector"
+        android:padding="@dimen/center_icon_margin" >
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/center_icon_margin"
+                android:minHeight="@dimen/center_item_icon_size"
+                android:minWidth="@dimen/center_item_icon_size"
                 android:src="@drawable/contact_list_selected" />
 
             <TextView
@@ -80,24 +76,16 @@
                 android:textSize="@dimen/center_item_textsize"
                 />
 
-        </LinearLayout>
+ 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/linearLayout1"
-        android:orientation="vertical" >
-    </LinearLayout>
-
-    <LinearLayout
+        android:id="@+id/mysees"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/linearLayout2"
-        android:background="@color/center_item_bg_color"
+        android:layout_below="@+id/photos"
+        android:background="@drawable/btn_blue_selector"
         android:padding="@dimen/center_icon_margin" >
 
         <ImageView
@@ -105,6 +93,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/center_icon_margin"
+            android:minHeight="@dimen/center_item_icon_size"
+            android:minWidth="@dimen/center_item_icon_size"
             android:src="@drawable/contact_list_selected" />
 
         <TextView
@@ -115,7 +105,6 @@
             android:layout_marginLeft="@dimen/center_icon_margin"
             android:text="看过的人"
             android:textSize="@dimen/center_item_textsize" />
-
     </LinearLayout>
 
 </RelativeLayout>

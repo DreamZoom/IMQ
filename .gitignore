@@ -215,3 +215,8 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 IM.Android/IM/.classpath
+*.class
+*.class
+*.cache
+*.ap_
+*.dex
