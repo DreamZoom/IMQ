@@ -16,6 +16,8 @@ local.properties
 .settings/
 .loadpath
 
+IM.Android/IM/bin/
+
 # External tool builders
 .externalToolBuilders/
 
