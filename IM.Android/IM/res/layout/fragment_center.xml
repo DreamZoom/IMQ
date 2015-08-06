@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginTop="@dimen/center_icon_margin"
-            android:background="@color/center_item_bg_color"
+            android:background="@drawable/item_normal_shape"
             android:padding="@dimen/center_icon_margin" >
 
             <ImageView
@@ -76,7 +76,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/center_icon_margin"
-                android:text="相册" />
+                android:text="相册" 
+                android:textSize="@dimen/center_item_textsize"
+                />
 
         </LinearLayout>
     </LinearLayout>
@@ -111,7 +113,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginLeft="@dimen/center_icon_margin"
-            android:text="看过的人" />
+            android:text="看过的人"
+            android:textSize="@dimen/center_item_textsize" />
 
     </LinearLayout>
 
