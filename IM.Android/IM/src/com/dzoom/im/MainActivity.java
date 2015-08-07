@@ -1,16 +1,20 @@
 package com.dzoom.im;
 
+import imsdk.data.IMMyself;
+import imsdk.data.IMMyself.OnActionListener;
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 import com.dzoom.im.adapters.MainViewAdapter;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity {
 
@@ -29,6 +33,8 @@ public class MainActivity extends FragmentActivity {
 		fragmentList.add(new CenterFragment());
 		
 		vPager.setAdapter(new MainViewAdapter(getSupportFragmentManager(),fragmentList));
+		
+		Login();
 	}
 
 	@Override
@@ -36,6 +42,31 @@ public class MainActivity extends FragmentActivity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	public void Login(){
+		IMMyself.setCustomUserID("wxllzf");
+		IMMyself.setPassword("123456");
+		IMMyself.login(true, 5, new OnActionListener() {
+			@Override
+			public void onSuccess() {
+		
+				Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+				
+			}
+
+			@Override
+			public void onFailure(String error) {
+				if (error.equals("Timeout")) {
+					error = "登录超时";
+				} else if (error.equals("Wrong Password")) {
+					error = "密码错误";
+				}
+
+				
+				Toast.makeText(MainActivity.this, error, Toast.LENGTH_SHORT).show();
+			}
+		});
 	}
 
 }

@@ -8,48 +8,164 @@
 package com.dzoom.im;
 
 public final class R {
+    public static final class anim {
+        public static final int im_chatting_left_voice_play=0x7f040000;
+        public static final int im_chatting_right_voice_play=0x7f040001;
+    }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int custom_background=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_height=0x7f01000b;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int custom_src=0x7f010006;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int custom_text=0x7f010007;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_textColor=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_textSize=0x7f010009;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_weight=0x7f01000c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int custom_width=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int main_photo_corner_radius=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int main_photo_visible=0x7f010003;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int max_gif_count_in_message=0x7f010000;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title_bar_visible=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int user_name_visible=0x7f010002;
     }
     public static final class color {
-        public static final int app_bg_color=0x7f040000;
-        public static final int app_gray_color=0x7f040001;
-        public static final int black_deep=0x7f040022;
-        public static final int bottom_bar_normal_bg=0x7f040011;
-        public static final int bottom_text_color_normal=0x7f040012;
-        public static final int btn_answer_normal=0x7f040024;
-        public static final int btn_answer_pressed=0x7f040023;
-        public static final int btn_blue_normal=0x7f04001a;
-        public static final int btn_blue_pressed=0x7f04001b;
-        public static final int btn_gray_normal=0x7f040017;
-        public static final int btn_gray_pressed=0x7f040019;
-        public static final int btn_gray_pressed_status=0x7f040018;
-        public static final int btn_green_noraml=0x7f040015;
-        public static final int btn_green_pressed=0x7f040016;
-        public static final int btn_login_normal=0x7f040003;
-        public static final int btn_login_pressed=0x7f040004;
-        public static final int btn_logout_normal=0x7f040005;
-        public static final int btn_logout_pressed=0x7f040006;
-        public static final int btn_pressed_green_solid=0x7f04000d;
-        public static final int btn_register_normal=0x7f040007;
-        public static final int btn_register_pressed=0x7f040008;
-        public static final int btn_white_normal=0x7f040013;
-        public static final int btn_white_pressed=0x7f040014;
-        public static final int center_item_bg_color=0x7f040026;
-        public static final int common_bg=0x7f04000c;
-        public static final int common_bottom_bar_normal_bg=0x7f040009;
-        public static final int common_bottom_bar_selected_bg=0x7f04000a;
-        public static final int common_botton_bar_blue=0x7f04000b;
-        public static final int common_top_bar_blue=0x7f040002;
-        public static final int divider_list=0x7f04000e;
-        public static final int error_item_color=0x7f040010;
-        public static final int gray_normal=0x7f04001e;
-        public static final int gray_pressed=0x7f04001d;
-        public static final int grid_state_focused=0x7f040020;
-        public static final int grid_state_pressed=0x7f04001f;
-        public static final int main_botton_text_color=0x7f040025;
-        public static final int orange=0x7f04001c;
-        public static final int top_bar_normal_bg=0x7f04000f;
-        public static final int voip_interface_text_color=0x7f040021;
+        public static final int app_bg_color=0x7f050000;
+        public static final int app_gray_color=0x7f050001;
+        public static final int black=0x7f050027;
+        public static final int black_deep=0x7f050022;
+        public static final int bottom_bar_normal_bg=0x7f050011;
+        public static final int bottom_text_color_normal=0x7f050012;
+        public static final int btn_answer_normal=0x7f050024;
+        public static final int btn_answer_pressed=0x7f050023;
+        public static final int btn_blue_normal=0x7f05001a;
+        public static final int btn_blue_pressed=0x7f05001b;
+        public static final int btn_gray_normal=0x7f050017;
+        public static final int btn_gray_pressed=0x7f050019;
+        public static final int btn_gray_pressed_status=0x7f050018;
+        public static final int btn_green_noraml=0x7f050015;
+        public static final int btn_green_pressed=0x7f050016;
+        public static final int btn_login_normal=0x7f050003;
+        public static final int btn_login_pressed=0x7f050004;
+        public static final int btn_logout_normal=0x7f050005;
+        public static final int btn_logout_pressed=0x7f050006;
+        public static final int btn_pressed_green_solid=0x7f05000d;
+        public static final int btn_register_normal=0x7f050007;
+        public static final int btn_register_pressed=0x7f050008;
+        public static final int btn_white_normal=0x7f050013;
+        public static final int btn_white_pressed=0x7f050014;
+        public static final int center_item_bg_color=0x7f050026;
+        public static final int color_title_btn=0x7f05002c;
+        public static final int color_title_btn_pressed=0x7f05002d;
+        public static final int common_bg=0x7f05000c;
+        public static final int common_bottom_bar_normal_bg=0x7f050009;
+        public static final int common_bottom_bar_selected_bg=0x7f05000a;
+        public static final int common_botton_bar_blue=0x7f05000b;
+        public static final int common_top_bar_blue=0x7f050002;
+        public static final int divider_list=0x7f05000e;
+        public static final int emoji_btn_normal=0x7f05002b;
+        public static final int emoji_btn_pressed=0x7f05002a;
+        public static final int error_item_color=0x7f050010;
+        public static final int gray_normal=0x7f05001e;
+        public static final int gray_pressed=0x7f05001d;
+        public static final int grid_state_focused=0x7f050020;
+        public static final int grid_state_pressed=0x7f05001f;
+        public static final int im_btn_title_selector=0x7f05002e;
+        public static final int im_titlebar_right_selector=0x7f05002f;
+        public static final int left_menu_bg=0x7f050029;
+        public static final int main_botton_text_color=0x7f050025;
+        public static final int orange=0x7f05001c;
+        public static final int top_bar_normal_bg=0x7f05000f;
+        public static final int voip_interface_text_color=0x7f050021;
+        public static final int white=0x7f050028;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -58,13 +174,13 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
-        public static final int center_icon_margin=0x7f050002;
-        public static final int center_icon_width=0x7f050003;
-        public static final int center_item_icon_size=0x7f050006;
-        public static final int center_item_padding_left=0x7f050004;
-        public static final int center_item_textsize=0x7f050005;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int center_icon_margin=0x7f060002;
+        public static final int center_icon_width=0x7f060003;
+        public static final int center_item_icon_size=0x7f060006;
+        public static final int center_item_padding_left=0x7f060004;
+        public static final int center_item_textsize=0x7f060005;
     }
     public static final class drawable {
         public static final int btn_blue_normal_shape=0x7f020000;
@@ -75,41 +191,194 @@ public final class R {
         public static final int conversation_normal=0x7f020005;
         public static final int conversation_selected=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int item_normal_shape=0x7f020008;
-        public static final int main_bottom_item_bg=0x7f020009;
-        public static final int settings_normal=0x7f02000a;
-        public static final int settings_selected=0x7f02000b;
-        public static final int tab_chat_bg=0x7f02000c;
-        public static final int tab_contact_list_bg=0x7f02000d;
-        public static final int tab_setting_bg=0x7f02000e;
-        public static final int unread_count_bg=0x7f02000f;
-        public static final int unread_dot=0x7f020010;
+        public static final int im_amp1=0x7f020008;
+        public static final int im_amp2=0x7f020009;
+        public static final int im_amp3=0x7f02000a;
+        public static final int im_app_panel_emo=0x7f02000b;
+        public static final int im_app_panel_pic_icon=0x7f02000c;
+        public static final int im_app_panel_shade=0x7f02000d;
+        public static final int im_app_panel_shade_normal=0x7f02000e;
+        public static final int im_app_panel_shade_pressed=0x7f02000f;
+        public static final int im_app_panel_take_photo_icon=0x7f020010;
+        public static final int im_back_select_btn=0x7f020011;
+        public static final int im_back_select_btn_nor=0x7f020012;
+        public static final int im_back_select_btn_pressed=0x7f020013;
+        public static final int im_btn_style_resend=0x7f020014;
+        public static final int im_chat_camera=0x7f020015;
+        public static final int im_chat_photo=0x7f020016;
+        public static final int im_chatfrom_bg_normal=0x7f020017;
+        public static final int im_chatsystem_bg=0x7f020018;
+        public static final int im_chatting_emoji_btn=0x7f020019;
+        public static final int im_chatting_emoji_normal=0x7f02001a;
+        public static final int im_chatting_emoji_pressed=0x7f02001b;
+        public static final int im_chatting_send_btn_bg=0x7f02001c;
+        public static final int im_chatting_send_btn_bg_pressed=0x7f02001d;
+        public static final int im_chatting_setmode_keyboard_btn_normal=0x7f02001e;
+        public static final int im_chatting_setmode_send_btn_normal=0x7f02001f;
+        public static final int im_chatting_setmode_voice_btn_normal=0x7f020020;
+        public static final int im_chatto_bg_normal=0x7f020021;
+        public static final int im_dividingline=0x7f020022;
+        public static final int im_dot_select=0x7f020023;
+        public static final int im_dot_unselect=0x7f020024;
+        public static final int im_drawable_time_bg=0x7f020025;
+        public static final int im_emoji_btn_selector=0x7f020026;
+        public static final int im_imsdk_default=0x7f020027;
+        public static final int im_loading_bg=0x7f020028;
+        public static final int im_login_edit_normal=0x7f020029;
+        public static final int im_mini_avatar_shadow=0x7f02002a;
+        public static final int im_rcd_cancel_bg=0x7f02002b;
+        public static final int im_rcd_cancel_icon=0x7f02002c;
+        public static final int im_resend_normal=0x7f02002d;
+        public static final int im_resend_press=0x7f02002e;
+        public static final int im_tab_bg=0x7f02002f;
+        public static final int im_title_bg=0x7f020030;
+        public static final int im_title_bg2=0x7f020031;
+        public static final int im_transparent_selector=0x7f020032;
+        public static final int im_type_select_btn=0x7f020033;
+        public static final int im_type_select_btn_nor=0x7f020034;
+        public static final int im_type_select_btn_pressed=0x7f020035;
+        public static final int im_voice_node_mine=0x7f020036;
+        public static final int im_voice_node_mine_playing001=0x7f020037;
+        public static final int im_voice_node_mine_playing002=0x7f020038;
+        public static final int im_voice_node_mine_playing003=0x7f020039;
+        public static final int im_voice_node_other=0x7f02003a;
+        public static final int im_voice_node_other_playing001=0x7f02003b;
+        public static final int im_voice_node_other_playing002=0x7f02003c;
+        public static final int im_voice_node_other_playing003=0x7f02003d;
+        public static final int im_voice_rcd_cancel_bg=0x7f02003e;
+        public static final int im_voice_rcd_cancel_bg_focused=0x7f02003f;
+        public static final int im_voice_rcd_hint_bg=0x7f020040;
+        public static final int im_voice_to_short=0x7f020041;
+        public static final int item_normal_shape=0x7f020042;
+        public static final int main_bottom_item_bg=0x7f020043;
+        public static final int settings_normal=0x7f020044;
+        public static final int settings_selected=0x7f020045;
+        public static final int tab_chat_bg=0x7f020046;
+        public static final int tab_contact_list_bg=0x7f020047;
+        public static final int tab_setting_bg=0x7f020048;
+        public static final int unread_count_bg=0x7f020049;
+        public static final int unread_dot=0x7f02004a;
     }
     public static final class id {
-        public static final int action_settings=0x7f090017;
-        public static final int btn_address_list=0x7f090008;
-        public static final int btn_center=0x7f09000d;
-        public static final int btn_container_address_list=0x7f090007;
-        public static final int btn_container_center=0x7f09000c;
-        public static final int btn_container_conversation=0x7f090004;
-        public static final int btn_container_setting=0x7f09000a;
-        public static final int btn_conversation=0x7f090005;
-        public static final int btn_setting=0x7f09000b;
-        public static final int editText1=0x7f090001;
-        public static final int imageView1=0x7f09000f;
-        public static final int imageView2=0x7f090012;
-        public static final int imageView22=0x7f090015;
-        public static final int linearLayout1=0x7f09000e;
-        public static final int main_bottom=0x7f090003;
-        public static final int mysees=0x7f090014;
-        public static final int photos=0x7f090011;
-        public static final int textView1=0x7f090000;
-        public static final int textView2=0x7f090010;
-        public static final int textView3=0x7f090013;
-        public static final int textView32=0x7f090016;
-        public static final int unread_address_number=0x7f090009;
-        public static final int unread_msg_number=0x7f090006;
-        public static final int vPager=0x7f090002;
+        public static final int action_settings=0x7f0a0076;
+        public static final int btn_address_list=0x7f0a0006;
+        public static final int btn_center=0x7f0a000b;
+        public static final int btn_container_address_list=0x7f0a0005;
+        public static final int btn_container_center=0x7f0a000a;
+        public static final int btn_container_conversation=0x7f0a0002;
+        public static final int btn_container_setting=0x7f0a0008;
+        public static final int btn_conversation=0x7f0a0003;
+        public static final int btn_setting=0x7f0a0009;
+        public static final int chat_footer_image_root=0x7f0a0028;
+        public static final int chat_plantext_root=0x7f0a0020;
+        public static final int chatting_item_custom_view=0x7f0a0037;
+        public static final int chatting_item_left=0x7f0a0038;
+        public static final int chatting_item_left_addon=0x7f0a0045;
+        public static final int chatting_item_left_audio=0x7f0a003f;
+        public static final int chatting_item_left_content=0x7f0a003e;
+        public static final int chatting_item_left_userhead=0x7f0a0039;
+        public static final int chatting_item_left_username=0x7f0a003a;
+        public static final int chatting_item_right=0x7f0a0046;
+        public static final int chatting_item_right_addon=0x7f0a0049;
+        public static final int chatting_item_right_audio=0x7f0a004e;
+        public static final int chatting_item_right_content=0x7f0a004d;
+        public static final int chatting_item_right_progress=0x7f0a004a;
+        public static final int chatting_item_right_userhead=0x7f0a0054;
+        public static final int chatting_item_right_username=0x7f0a0047;
+        public static final int chatting_item_system=0x7f0a0035;
+        public static final int chatting_item_system_content=0x7f0a0036;
+        public static final int content_left_custom_root=0x7f0a0044;
+        public static final int content_left_image=0x7f0a0041;
+        public static final int content_left_image_mask=0x7f0a0042;
+        public static final int content_left_image_progress=0x7f0a0043;
+        public static final int content_left_image_root=0x7f0a0040;
+        public static final int content_right_custom_root=0x7f0a0053;
+        public static final int content_right_image=0x7f0a0050;
+        public static final int content_right_image_mask=0x7f0a0051;
+        public static final int content_right_image_progress=0x7f0a0052;
+        public static final int content_right_image_root=0x7f0a004f;
+        public static final int dividingline=0x7f0a0019;
+        public static final int emo_1=0x7f0a0057;
+        public static final int emo_10=0x7f0a0060;
+        public static final int emo_11=0x7f0a0061;
+        public static final int emo_12=0x7f0a0062;
+        public static final int emo_13=0x7f0a0063;
+        public static final int emo_14=0x7f0a0064;
+        public static final int emo_15=0x7f0a0065;
+        public static final int emo_16=0x7f0a0066;
+        public static final int emo_17=0x7f0a0067;
+        public static final int emo_18=0x7f0a0068;
+        public static final int emo_19=0x7f0a0069;
+        public static final int emo_2=0x7f0a0058;
+        public static final int emo_20=0x7f0a006a;
+        public static final int emo_21=0x7f0a006b;
+        public static final int emo_3=0x7f0a0059;
+        public static final int emo_4=0x7f0a005a;
+        public static final int emo_5=0x7f0a005b;
+        public static final int emo_6=0x7f0a005c;
+        public static final int emo_7=0x7f0a005d;
+        public static final int emo_8=0x7f0a005e;
+        public static final int emo_9=0x7f0a005f;
+        public static final int im_cusbtn=0x7f0a0055;
+        public static final int im_tv=0x7f0a0056;
+        public static final int imageView2=0x7f0a0011;
+        public static final int imageView22=0x7f0a0014;
+        public static final int imchatview_back=0x7f0a0018;
+        public static final int imchatview_choosephoto=0x7f0a0026;
+        public static final int imchatview_choosephoto_txt=0x7f0a0027;
+        public static final int imchatview_edittext=0x7f0a0021;
+        public static final int imchatview_face=0x7f0a001f;
+        public static final int imchatview_facesindexpanel=0x7f0a0032;
+        public static final int imchatview_facesviewpager=0x7f0a0031;
+        public static final int imchatview_footer=0x7f0a0024;
+        public static final int imchatview_inputbar=0x7f0a001d;
+        public static final int imchatview_listview=0x7f0a001c;
+        public static final int imchatview_plus=0x7f0a001e;
+        public static final int imchatview_pluscontent=0x7f0a0025;
+        public static final int imchatview_record=0x7f0a0022;
+        public static final int imchatview_root=0x7f0a0016;
+        public static final int imchatview_sendoraudioswtich=0x7f0a0023;
+        public static final int imchatview_takephoto=0x7f0a0029;
+        public static final int imchatview_takephoto_txt=0x7f0a002a;
+        public static final int imchatview_title=0x7f0a001a;
+        public static final int imchatview_titlebar=0x7f0a0017;
+        public static final int imchatview_titlebarright=0x7f0a001b;
+        public static final int img_user=0x7f0a000e;
+        public static final int imimg_image=0x7f0a0033;
+        public static final int imimg_loading=0x7f0a0034;
+        public static final int left_content=0x7f0a003b;
+        public static final int left_content_chat=0x7f0a003d;
+        public static final int left_content_p=0x7f0a003c;
+        public static final int linearLayout1=0x7f0a000d;
+        public static final int main_bottom=0x7f0a0001;
+        public static final int mysees=0x7f0a0013;
+        public static final int photos=0x7f0a0010;
+        public static final int plusmenu_btn_3=0x7f0a002c;
+        public static final int plusmenu_btn_4=0x7f0a002f;
+        public static final int plusmenu_btntxt_3=0x7f0a002d;
+        public static final int plusmenu_btntxt_4=0x7f0a0030;
+        public static final int plusmenu_layout_3=0x7f0a002b;
+        public static final int plusmenu_layout_4=0x7f0a002e;
+        public static final int progressBar1=0x7f0a0074;
+        public static final int right_content=0x7f0a0048;
+        public static final int right_content_chat=0x7f0a004c;
+        public static final int right_content_p=0x7f0a004b;
+        public static final int textView3=0x7f0a0012;
+        public static final int textView32=0x7f0a0015;
+        public static final int text_account=0x7f0a000f;
+        public static final int text_username=0x7f0a000c;
+        public static final int unread_address_number=0x7f0a0007;
+        public static final int unread_msg_number=0x7f0a0004;
+        public static final int vPager=0x7f0a0000;
+        public static final int voice_rcd_hint_anim=0x7f0a006e;
+        public static final int voice_rcd_hint_anim_area=0x7f0a006d;
+        public static final int voice_rcd_hint_cancel_area=0x7f0a0070;
+        public static final int voice_rcd_hint_cancel_icon=0x7f0a0071;
+        public static final int voice_rcd_hint_cancel_icon_small=0x7f0a006f;
+        public static final int voice_rcd_hint_cancel_text=0x7f0a0072;
+        public static final int voice_rcd_hint_loading=0x7f0a0073;
+        public static final int voice_rcd_hint_rcding=0x7f0a006c;
+        public static final int voice_rcd_hint_tooshort=0x7f0a0075;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
@@ -118,18 +387,35 @@ public final class R {
         public static final int fragment_center=0x7f030003;
         public static final int fragment_conversation=0x7f030004;
         public static final int fragment_setting=0x7f030005;
+        public static final int im_chatview=0x7f030006;
+        public static final int im_chatview_image=0x7f030007;
+        public static final int im_chatview_item_chatting=0x7f030008;
+        public static final int im_custom_imagebutton=0x7f030009;
+        public static final int im_emotion_pager_classical_item=0x7f03000a;
+        public static final int im_voice_rcd_dialog=0x7f03000b;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int address_book=0x7f060004;
-        public static final int app_name=0x7f060000;
-        public static final int center=0x7f060006;
-        public static final int hello_world=0x7f060002;
-        public static final int session=0x7f060003;
-        public static final int setting=0x7f060005;
+        public static final int action_settings=0x7f07000c;
+        public static final int address_book=0x7f07000f;
+        public static final int app_name=0x7f07000b;
+        public static final int center=0x7f070011;
+        public static final int chatfooter_cancel_rcd=0x7f070006;
+        public static final int chatfooter_cancel_rcd_release=0x7f070007;
+        public static final int chatfooter_too_short=0x7f070005;
+        public static final int hello_world=0x7f07000d;
+        public static final int session=0x7f07000e;
+        public static final int setting=0x7f070010;
+        public static final int str_back=0x7f07000a;
+        public static final int str_emoji=0x7f070008;
+        public static final int str_emoji_classical=0x7f070009;
+        public static final int str_image=0x7f070000;
+        public static final int str_send=0x7f070002;
+        public static final int str_take_photo=0x7f070001;
+        public static final int str_voice_press=0x7f070003;
+        public static final int str_voice_up=0x7f070004;
     }
     public static final class style {
         /** 
@@ -153,10 +439,249 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080004;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080005;
+        public static final int chat_content_date_style=0x7f080001;
+        /**  im聊天页面 start 
+         */
+        public static final int chat_text_date_style=0x7f080000;
+        public static final int chat_text_name_style=0x7f080002;
+        public static final int custom_dialog_transparent=0x7f080003;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CustomImageButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_background com.dzoom.im:custom_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_height com.dzoom.im:custom_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_src com.dzoom.im:custom_src}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_text com.dzoom.im:custom_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_textColor com.dzoom.im:custom_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_textSize com.dzoom.im:custom_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_weight com.dzoom.im:custom_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageButton_custom_width com.dzoom.im:custom_width}</code></td><td></td></tr>
+           </table>
+           @see #CustomImageButton_custom_background
+           @see #CustomImageButton_custom_height
+           @see #CustomImageButton_custom_src
+           @see #CustomImageButton_custom_text
+           @see #CustomImageButton_custom_textColor
+           @see #CustomImageButton_custom_textSize
+           @see #CustomImageButton_custom_weight
+           @see #CustomImageButton_custom_width
+         */
+        public static final int[] CustomImageButton = {
+            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
+            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_background}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dzoom.im:custom_background
+        */
+        public static final int CustomImageButton_custom_background = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_height}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:custom_height
+        */
+        public static final int CustomImageButton_custom_height = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_src}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dzoom.im:custom_src
+        */
+        public static final int CustomImageButton_custom_src = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_text}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.dzoom.im:custom_text
+        */
+        public static final int CustomImageButton_custom_text = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_textColor}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:custom_textColor
+        */
+        public static final int CustomImageButton_custom_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_textSize}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:custom_textSize
+        */
+        public static final int CustomImageButton_custom_textSize = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_weight}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:custom_weight
+        */
+        public static final int CustomImageButton_custom_weight = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#custom_width}
+          attribute's value can be found in the {@link #CustomImageButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:custom_width
+        */
+        public static final int CustomImageButton_custom_width = 5;
+        /** Attributes that can be used with a IMChatView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #IMChatView_main_photo_corner_radius com.dzoom.im:main_photo_corner_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMChatView_main_photo_visible com.dzoom.im:main_photo_visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMChatView_max_gif_count_in_message com.dzoom.im:max_gif_count_in_message}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMChatView_title_bar_visible com.dzoom.im:title_bar_visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #IMChatView_user_name_visible com.dzoom.im:user_name_visible}</code></td><td></td></tr>
+           </table>
+           @see #IMChatView_main_photo_corner_radius
+           @see #IMChatView_main_photo_visible
+           @see #IMChatView_max_gif_count_in_message
+           @see #IMChatView_title_bar_visible
+           @see #IMChatView_user_name_visible
+         */
+        public static final int[] IMChatView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#main_photo_corner_radius}
+          attribute's value can be found in the {@link #IMChatView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:main_photo_corner_radius
+        */
+        public static final int IMChatView_main_photo_corner_radius = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#main_photo_visible}
+          attribute's value can be found in the {@link #IMChatView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:main_photo_visible
+        */
+        public static final int IMChatView_main_photo_visible = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#max_gif_count_in_message}
+          attribute's value can be found in the {@link #IMChatView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.dzoom.im:max_gif_count_in_message
+        */
+        public static final int IMChatView_max_gif_count_in_message = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#title_bar_visible}
+          attribute's value can be found in the {@link #IMChatView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:title_bar_visible
+        */
+        public static final int IMChatView_title_bar_visible = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.dzoom.im.R.attr#user_name_visible}
+          attribute's value can be found in the {@link #IMChatView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dzoom.im:user_name_visible
+        */
+        public static final int IMChatView_user_name_visible = 2;
+    };
 }

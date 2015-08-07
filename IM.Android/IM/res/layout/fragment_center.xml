@@ -15,7 +15,7 @@
         android:background="@color/center_item_bg_color" >
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/img_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/center_icon_margin"
@@ -32,14 +32,14 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/text_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="沧海月生"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/text_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="账号：xiaolong-sea"
