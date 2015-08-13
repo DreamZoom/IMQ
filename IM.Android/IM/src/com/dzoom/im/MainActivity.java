@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import cn.bmob.v3.Bmob;
+
 import com.dzoom.im.adapters.MainViewAdapter;
 
 import android.os.Bundle;
@@ -24,6 +26,8 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		
 		
 	    vPager = (ViewPager)findViewById(R.id.vPager);
 		
