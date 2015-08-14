@@ -43,26 +43,11 @@ public class CenterFragment extends Fragment {
 		
 		final Context context =this.getActivity();
 		userManager =BmobUserManager.getInstance(this.getActivity()); 
-	    userManager.queryUserByName("wxllzf123", new FindListener<BmobChatUser>(){
-
-			@Override
-			public void onError(int arg0, String arg1) {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onSuccess(List<BmobChatUser> arg0) {
-				
-				if(arg0.size()==0) return;
-				
-				BmobChatUser user = arg0.get(0);
-				// TODO Auto-generated method stub
-				text_username.setText(user.getUsername());
-				text_account.setText(user.getEmail());
-				Picasso.with(context).load(user.getAvatar()).resize(100, 100).into(img_user);
-				
-			}});
+		BmobChatUser user = userManager.getCurrentUser();
+	   
+		text_username.setText(user.getUsername());
+		text_account.setText(user.getEmail());
+		Picasso.with(context).load(user.getAvatar()).placeholder(R.drawable.default_avatar).resize(100, 100).into(img_user);
 		
 	}
 

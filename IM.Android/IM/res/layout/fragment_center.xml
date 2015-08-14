@@ -54,7 +54,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/linearLayout1"
-        android:background="@drawable/btn_blue_selector"
+        android:background="@color/center_item_bg_color"
         android:padding="@dimen/center_icon_margin" >
 
             <ImageView
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/photos"
-        android:background="@drawable/btn_blue_selector"
+        android:background="@color/center_item_bg_color"
         android:padding="@dimen/center_icon_margin" >
 
         <ImageView
